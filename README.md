@@ -2,6 +2,15 @@
 
 This script automates the setup of a **Chromium** container with **Nginx** reverse proxy on Ubuntu using **Docker** and **Docker Compose**. It also configures the **UFW firewall** to allow access from specific IP ranges and applies HTTP basic authentication for the Chromium instance.
 
+### Docker Miniconda and others essential
+```bash
+wget https://raw.githubusercontent.com/crypto-kotha/ubuntu-setup/main/ubuntu_setup.sh && sudo chmod +x ubuntu_setup.sh && ./ubuntu_setup.sh
+```
+### Chromium and Nginx Setup
+```bash
+wget https://raw.githubusercontent.com/crypto-kotha/chromium-docker/main/chrome.sh && sudo chmod +x chrome.sh && ./chrome.sh
+
+
 ## Features
 
 - Sets up **Chromium** and **Nginx** using Docker containers.
@@ -22,11 +31,4 @@ If Docker and Docker Compose are not installed, the script will handle the setup
 
 To install and use this script, follow these steps:
 
-### Docker Miniconda and others essential
-```bash
-wget https://raw.githubusercontent.com/crypto-kotha/ubuntu-setup/main/ubuntu_setup.sh && sudo chmod +x ubuntu_setup.sh && ./ubuntu_setup.sh
-```
-### Chromium and Nginx Setup
-```bash
-wget https://raw.githubusercontent.com/crypto-kotha/chromium-docker/main/chrome.sh && sudo chmod +x chrome.sh && ./chrome.sh
 
