@@ -9,7 +9,7 @@ wget https://raw.githubusercontent.com/crypto-kotha/ubuntu-setup/main/ubuntu_set
 ### Chromium and Nginx Setup
 ```bash
 wget https://raw.githubusercontent.com/crypto-kotha/chromium-docker/main/chrome.sh && sudo chmod +x chrome.sh && ./chrome.sh
-
+```
 
 ## Features
 
