@@ -1,8 +1,6 @@
 #!/bin/bash
 
-docker pull lscr.io/linuxserver/chromium:latest
-
-docker pull nginx:latest
+mkdir chromium
 
 # Error handling and logging
 set -e
