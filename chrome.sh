@@ -1,7 +1,5 @@
 #!/bin/bash
 
-wget https://raw.githubusercontent.com/crypto-kotha/ubuntu-setup/main/ubuntu_setup.sh && sudo chmod +x ubuntu_setup.sh && ./ubuntu_setup.sh
-
 docker pull lscr.io/linuxserver/chromium:latest
 
 docker pull nginx:latest
