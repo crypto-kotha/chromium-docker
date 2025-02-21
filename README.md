@@ -1,4 +1,4 @@
-# Ubuntu Chromium & Nginx Setup
+# Ubuntu Chromium & Nginx Setup for Headless
 
 This script automates the setup of a **Chromium** container with **Nginx** reverse proxy on Ubuntu using **Docker** and **Docker Compose**. It also configures the **UFW firewall** to allow access from specific IP ranges and applies HTTP basic authentication for the Chromium instance.
 
